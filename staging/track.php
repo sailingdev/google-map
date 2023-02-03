@@ -40,7 +40,7 @@ $imei = $_GET['imei'];
 <div id="map"></div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyATD6C5HPaQ71YYOrIORgm6NdYHYrkjpsc&libraries=geometry"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=&libraries=geometry"></script>
 
 <script>
     let trilPath, marker, markerPosition, path, repetition_cnt = 1;
