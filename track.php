@@ -37,7 +37,7 @@ $end_time = $_GET['end_time'] ?? "";
         function test(){}
     </script>
     <script src="./assets/jquery/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyATD6C5HPaQ71YYOrIORgm6NdYHYrkjpsc&libraries=geometry&callback=test"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=&libraries=geometry&callback=test"></script>
     <script>
         var trilPath, marker, markerPosition, path;
         let map, parked_markers = [], vehicle_speed = 0, before_speed = 1;
